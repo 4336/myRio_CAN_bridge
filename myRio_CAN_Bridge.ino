@@ -4,7 +4,7 @@
 ////////////
 // DEFINE //
 ////////////
-#define USB_DEBUG_MODE
+//#define USB_DEBUG_MODE
 //#define USB_DEBUG_MODE_RAW
 
 
