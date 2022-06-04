@@ -204,7 +204,7 @@ void canSniff(const CAN_message_t &msg) {
 
   isCanRx_ = true;
 
-  for (int i = 0 ; i < 7; i++) {
+  for (int i = 0 ; i < 8; i++) {
     can_buf_.u_uint8t[i] = msg.buf[i]; //CAN & Teensy use little endian?
   }
   
